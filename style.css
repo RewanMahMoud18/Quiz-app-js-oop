@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.quiz{
+    display: none;
+}
+.final{
+    display: none;
+
+}
+.settings{
+    width: 80%;
+    margin: auto;
+   
+}
+
+.header{
+    text-align: center;
+    margin: 10px 0 ;
+    font-size: 30px;
+    color:rgb(124, 18, 224);
+    background-color:rgb(204, 200, 209) ;
+    padding: 5px 0;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+.labelStyle{
+    color:rgb(124, 18, 224) ;
+    font-size: 21px;
+    margin: 10px 0;
+
+}
+#category{
+    background-color:rgb(204, 200, 209);
+    color: rgb(124, 18, 224);
+    width: 50%;
+    height: 30px;
+    border: 1px solid #999;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+Label{
+    color: rgb(124, 18, 224);
+    font-size: 20px;
+    margin: 5px 15px;
+    display: block;
+}
+#nQuestions{
+    background-color: rgb(204, 200, 209);
+    color: rgb(124, 18, 224);
+    width: 50%;
+    height: 30px;
+    border: 1px solid #999;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.submit{
+    background-color: rgb(204, 200, 209);
+    color: rgb(124, 18, 224);
+    width: 20%;
+    height: 30px;
+    border: 1px solid #999;
+    border-radius: 7px;
+    margin-top: 10px;
+    cursor: pointer;
+}
